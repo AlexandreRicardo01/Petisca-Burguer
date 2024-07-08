@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/11/2022, 15:12:17
+    Author     : 08539662140
+*/
+/*
+#formEditarConfig{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 50%;
+    transform: translate(-50%, -1%);
+    width: 650px;
+    height: 600px;
+}*/
+
+#formConfig{
+    position: relative;
+    transform: translate(-50%, -10%);
+    width: 650px;
+    height: 600px;
+}
+
+/*
+.imgHamburBtn{
+    position: absolute;
+    top: 83.5%;
+    left: 50%;
+    transform: translate(-50%);
+}
+*/
+
+#tableConfig{
+    position: absolute;
+    top: 220px;
+    left: 40px;
+    width: 95%;
+    border-color: rgb(150, 3, 3);
+    border-spacing: 2px;
+}
+
+/*
+#btnFormFornCancel{
+    left: 58%;
+    transform: translate(10%);
+    margin-right: 5px;
+}
+*/
+
+/*
+.btnForn:hover{
+    border: black solid 1px;
+    color: rgb(150, 10, 1);
+    background: #D1C300;
+    transition: 0.3s;
+}
+*/
+
+#btnEnviarConfig{
+    top: 85%;
+    left: 5%;
+    transform: translate(0);
+}
+
+#btnCancelConfig{
+    top: 85%;
+    right: 5%;
+    transform: translate(0);
+}

@@ -1,0 +1,59 @@
+/* Estilos para o carrinho */
+
+aside {
+    background-color:#ffcdd2;
+    width:0vw;
+    font-family:'Hepta Slab', Helvetica, Arial;
+    transition:all ease .2s;
+    overflow-x:hidden;
+}
+
+aside.show {
+    width:30vw;
+}
+
+.cart {
+  position: fixed;
+  top: 12%;
+  right: 10px;
+  padding: 10px;
+  background-color: #BA571E;
+  box-shadow: -1px 1px 2px black;
+  z-index: 9999;
+  border-radius: 10px;
+  display: block;
+  border: 1px solid yellow;
+}
+
+.cart-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  color:yellow;
+  border-bottom: 1px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.cart-item-quantity {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.total-price {
+  margin-top: 10px;
+  font-weight: bold;
+  color: yellow;
+}
+
+#btnCancelar{
+    left: 80px;
+}   

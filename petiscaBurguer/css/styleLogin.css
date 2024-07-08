@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/11/2022, 15:12:17
+    Author     : 08539662140
+*/
+
+#formConfig{
+    position: relative;
+    transform: translate(-50%, -10%);
+    width: 650px;
+    height: 500px;
+    right: 10%;
+}
+
+/*
+.btnFunc{
+    position: absolute;
+    top: 190%;
+    left: 80%;
+    transform: translate(-50%);
+    padding: 10px;
+    width: 35%;
+    font-size: 18px;
+    color: yellow;
+    background-color: rgb(150, 3, 3);
+    border: 1px black solid;
+    cursor: pointer;
+}
+*/
+#fieldsetConfigCadLogin{
+    border: black solid 2px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.3);
+    box-shadow: -1px 1px 1px black;
+    height: 200px;
+    width: 150%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+fieldsett .inputBox{
+    position: absolute;
+    left: 10%;
+    
+}
+
+#fieldsetConfig{
+    border: black solid 2px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.3);
+    box-shadow: -1px 1px 1px black;
+    height: 230px;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    transform: translate (-50%, -50%);
+}
+
+#fieldsetConfig .inputBox{
+    top: 10px;
+    left: 35%;
+    transform: translate(-70%);
+}
+
+#funcao_func{
+    width: 120px;
+    font-size: 12px;
+    position: absolute;
+    top: 60px;
+    right: 41px;
+}
+
+/*
+#fieldsetConfigLogin .inputBox{
+    top: 50%;
+    left: 3.5%;
+    transform: translate(-7%);
+}
+*/
+/*
+#btnFormFuncCancel{
+    left: 88%;
+    transform: translate(10%);
+    margin-right: 5px;
+}
+*/
+
+/*
+.btnFunc:hover{
+    border: black solid 1px;
+    color: rgb(150, 10, 1);
+    background: #D1C300;
+    transition: 0.3s;
+}
+*/
+
+#olho 
+{
+    position: absolute;
+    top: 70%;
+    left: 96%;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+
+#imgHamburBtn{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+}
+
+#imgHamburBtnCad{
+    position: absolute;
+    top: 62%;
+    left: 520px;
+    transform: translate(-50%);
+}
+
+#tableConfig{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    width: 95%;
+    border-color: rgb(150, 3, 3);
+    border-spacing: 2px;
+}
+
+#btnEnviarConfig{
+    bottom: 10%;
+    left: 5%;
+}
+
+#btnCancelConfig{
+    bottom: 10%;
+    right: 5%;
+}
+

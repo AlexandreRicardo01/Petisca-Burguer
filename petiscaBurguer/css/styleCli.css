@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/11/2022, 15:12:17
+    Author     : 08539662140
+*/
+
+
+#formConfig{
+    width: 1400px;
+    height: 700px;
+}
+
+
+#btnEnviarConfig{
+    top: 85%;
+    left: 5%;
+    transform: translate(0);
+}
+/*
+#btnFormCancelar{
+    left: 58%;
+    transform: translate(10%);
+    margin-right: 5px;
+}
+*/
+
+#btnCancelConfig{
+    top: 85%;
+    right: 5%;
+    transform: translate(0);
+}
+
+.cardapio{
+    position: absolute;
+    top: 90px;
+}
+
+.cardapio .galeria{
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+    margin-top: 40px;
+    border-radius: 10px; /*muda a ponta da borda*/
+    border: 1px solid #FFF; 
+    box-shadow: 5px 5px 25px #000;
+}
+
+.cardapio2{
+    position: absolute;
+    bottom: 10px;
+    left: 6%;
+}
+
+.cardapio2 .galeria{
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+    margin-top: 40px;
+    border-radius: 10px; /*muda a ponta da borda*/
+    border: 1px solid #FFF; 
+    box-shadow: 5px 5px 25px #000;
+}

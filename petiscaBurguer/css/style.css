@@ -1,0 +1,285 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/11/2022, 16:30:02
+    Author     : 08539662140
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #BA571E;
+}
+
+form{
+    height: 100%;
+}
+
+.formEditar{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 50%;
+    transform: translate(-50%, -1%);
+    width: 650px;
+    height: 600px;
+}
+
+fieldset{
+    height: 450px;
+    border: black solid 2px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.3);
+    box-shadow: -1px 1px 1px black;
+    height: 100%;
+}
+
+fieldset .inputBox{
+    top: 50%;
+    left: 7%;
+    transform: translate(-7%);
+}
+
+.navBar{
+    border: greenyellow solid 1px;
+    border-radius: 5px;
+    height: 60px;
+    width: 90%;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgb(150, 3, 3);
+}
+
+.imgHamburNav{
+    position: absolute;
+    left: 1%;
+}
+
+.menus{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu .itens{
+position:relative;
+float:left;
+border-right:1px solid #c0c0c0;
+}
+
+.menus .itens a{
+    font-size: 21px;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    color: yellow;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.navBar .menus .itens .subItens{
+    list-style: none;
+    background-color: rgb(150, 3, 3);
+    padding: 0px;
+    margin-top: 4px;   
+}
+
+.navBar .menus .itens .subItens li{
+    display: none;
+    border-right: 1px greenyellow solid;
+    border-left: 1px greenyellow solid;
+    border-bottom: 1px greenyellow solid;
+    text-align: center;
+}
+
+.navBar .menus .itens:hover > .subItens li{
+    display: block;
+}
+
+.navBar .menus .subItens li:hover{
+    background-color: black;
+}
+
+.navBar .menus .itens .subItens li a{
+    font-size: 17px;
+}
+
+.titulo{
+    position: absolute;
+    top: 175px;
+    left: 95px;
+}
+
+.cardapio{
+    position: absolute;
+    top: 35%;
+    left: 6%;  
+}
+
+.cardapio .galeria{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px; /*muda a ponta da borda*/
+    border: 1px solid greenyellow; 
+    box-shadow: 5px 5px 25px #000;
+}
+
+a{
+    text-decoration: none;
+}
+
+.tituloConsultar{
+    position: absolute;
+    top: 17%;
+    left: 3%;
+    transform: translate(-3%, 22%);
+}
+
+table{
+    position: absolute;
+    top: 220px;
+    left: 40px;
+    width: 95%;
+    border-color: rgb(150, 3, 3);
+    border-spacing: 2px;
+    background-color: rgb(150, 3, 3);
+}
+
+td{
+    padding: 10px 3px;
+    color: white;
+}
+
+strong{
+    font-size: 15px;
+    color: yellow;
+}
+
+legend{
+    text-align: center;
+    border: 1px black solid;
+    background-color: rgb(150, 3, 3);
+    padding: 15px;
+    width: 80%;
+    height: 60px;
+    font-size: 25px;
+    color: yellow;
+}
+
+.respUser{
+    font-size: 15px;
+    padding: 5px;
+    width: 270px;
+    margin-top: 35px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    border: none;
+    border-bottom: 1px black solid;
+    outline: none;
+    background: none;
+    color: black;
+}
+
+.labelInput{
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    font-size: 20px;
+    transition: 0.5s;
+    cursor: text;
+    font-size: 16px;
+}
+/*
+.respUser:focus ~ .labelInput,
+.respUser:valid ~ .labelInput{
+    top: 13px;
+    font-size: 16px;
+}
+*/
+.frente .inputBox{
+    float:  left;
+    margin-right: 1em;
+}
+
+.inputBox{
+    position: relative;
+    top: 20px;
+}
+
+#btnEditar{
+    color: #003399;
+}
+
+#btnExcluir{
+    color: #FF0413;
+}
+
+.btnCancelar{
+    position: absolute;
+    top: 100px;
+    right: 80px;
+    padding: 10px;
+    width: 85px;
+    font-size: 16px;
+    color: yellow;
+    background-color: rgb(150, 3, 3);
+    border: 1px solid greenyellow;
+    cursor: pointer;
+}
+
+.btnGeral{
+    position: absolute;
+    padding: 10px;
+    width: 35%;
+    font-size: 18px;
+    color: yellow;
+    background-color: rgb(150, 3, 3);
+    border: 1px black solid;
+    cursor: pointer;
+}
+
+.btnGeral:hover{
+    border: black solid 1px;
+    color: rgb(150, 10, 1);
+    background: #D1C300;
+    transition: 0.3s;
+}
+/*
+#btnEnviarGeral{
+    left: 2%;
+    transform: translate(0);
+    margin-left: 5px;
+}
+*/  
+
+.imgHambur{
+    position: absolute;
+    top: 83.5%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#opan{
+    display: block;
+}
+
+#btnLogout{
+    position: absolute;
+    padding: 10px;
+    width: 35%;
+    font-size: 18px;
+    color: yellow;
+    background-color: rgb(150, 3, 3);
+    border: 1px black solid;
+    cursor: pointer;
+}
